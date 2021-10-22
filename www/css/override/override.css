@@ -1,0 +1,792 @@
+
+/* 
+for pallete 
+https://coolors.co/26547c-ef476f-ffd166-06d6a0-fcfcfc */
+
+*{
+    margin: 0;
+    padding: 0;
+  
+    -webkit-tap-highlight-color: transparent !important; 
+
+    /* remove highlight when click */
+
+    
+    
+}
+
+body{
+  background-color: #232D3B;
+   /* background-color: #2d3436; */
+}
+
+
+
+/* for version info */
+#version{
+    color: transparent !important;   
+}
+
+/* end of version info  */
+
+/* for MODA pop up  */
+
+#mdl_btn{
+    background-color: transparent !important;
+    display: none;
+}
+
+#modal1{
+    /* background-color: #293948 !important;  */
+    margin-top: 50% !important;
+}
+
+
+#update_header{
+    font-family: 'Varela Round', sans-serif !important;
+    color: #ffe32a !important;
+}
+
+#modal_text, #modal_log{
+    font-family: 'Varela Round', sans-serif !important;
+    color: #FDFBF9 !important;
+
+}
+
+#mdl_agree{
+    font-family: 'Varela Round', sans-serif !important;
+    color: #FDFBF9 !important;
+        
+}
+
+.modal-footer, .modal-content{
+    background-color: #26547C !important; 
+}
+
+/* end of MODAL Pop UP  */
+
+/* Nav Bar   */
+
+
+
+.nav-wrapper{    
+    background-color: #26547C;
+    /* background-color: #2d3436; */
+    font-family: 'Varela Round', sans-serif !important;
+   
+}
+
+.navbar-fixed{
+    height: 90px;
+    position: fixed !important;
+}
+
+
+.brand-logo{
+    font-family: 'Varela Round', sans-serif !important;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    color: white !important;
+    /* color: #FFDE00 !important; */
+    font-weight: 400;   
+    
+}
+
+/* End of Nav Bar   */
+
+
+/* This is for INDEX page  */
+
+#trading_view{
+  display: none;
+  margin-left: 8px !important;
+  margin-right: 8px !important;
+  
+}
+
+#card_for_indices{
+ border-radius: 2px !important; 
+}
+
+
+
+#Index_name{
+    font-family: 'Varela Round', sans-serif !important;
+    letter-spacing: 1.5px;    
+    text-align: left;
+    font-size: 25px;
+    color: #ffe32a !important;
+    font-weight: 900;
+}
+
+/* this is for the table LEFT CENTER AND RIGHT  */
+
+#Index_name_value, #Index_value_result {
+    font-family: 'Varela Round', sans-serif !important;  
+    letter-spacing: 1.5px !important; 
+    font-size: 12px;
+    color: #FDFBF9 !important;
+    /* font-weight: 400; */
+    text-transform: uppercase;
+    text-align: left !important;   
+}
+
+
+/* to center percentage value */
+#Index_name_change, #Index_value_change{
+    font-family: 'Varela Round', sans-serif !important;  
+    letter-spacing: 1.5px !important; 
+    font-size: 12px;
+    color: #FDFBF9 !important;
+    /* font-weight: 400; */
+    text-transform: uppercase;
+    text-align: center !important;
+}
+
+#Index_name_percent, #Index_value_percent{
+    font-family: 'Varela Round', sans-serif !important;  
+    letter-spacing: 1.5px !important; 
+    font-size: 12px;
+    color: #FDFBF9 !important;
+    /* font-weight: 400; */
+    text-transform: uppercase;
+    text-align: right !important;
+} 
+
+/* End of Index Page  */
+
+
+
+
+
+
+/* body */
+
+
+#sub_heading_date{
+    font-family: 'Varela Round', sans-serif !important;
+    letter-spacing: 1.5px;
+    margin-left: 12px;
+    padding-top: 50px;
+    /* color: #FFDE00 !important; */
+    color: white !important;
+    font-weight: 500; 
+    font-size: 12px;  
+   
+}
+
+
+
+/* END body */
+
+
+/* SPINNER  */
+
+#loading{
+    display: none; /* No display */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.spinner-layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    border-color: #fdfdfd !important;
+}
+
+#loading_message{
+display: none; /* No display */ 
+   color: #fdfdfd !important;
+   position: absolute;
+   top: 56%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-family: 'Varela Round', sans-serif !important;
+   letter-spacing: 1.5px;
+   font-weight: 500;
+   font-size: 14px;
+}   
+
+
+
+/* END OF SPINNER */
+
+
+
+.material-icons{
+    color: white;
+  
+}
+
+/* FAB  */
+
+
+.btn-floating{
+    background-color: #26547C !important;    
+}
+
+.btn-floating.btn-large i {
+    line-height: 0 !important;
+    padding-top: 15px !important;
+}
+
+#main_fab{
+    color: white !important;   
+    font-size: 25px;   
+    margin-top: 12px;
+}
+
+#active_href{
+    color: #FFDE00 !important;
+}
+
+/* END OF FAB  */
+
+
+/* Card Holder and other card */
+#card_holder, #search_price_card{   
+
+    border-radius: 2px !important;  
+    background-color: #293948 !important; 
+    /* background-color: #2b3440 !important; */
+     
+}
+
+
+
+/* for cARD SPACING  */
+
+.row .col.s12 {
+    width: 100%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+    margin-bottom: -33px;
+}
+/* END OF cARD SPACING  */
+
+
+#card_for_all_pse{
+  display: none;
+  padding-top: 90px;
+}
+
+/* End of Card Holder  */
+
+
+
+
+/* ticker Symbol  */
+#ticker_symbol{
+
+    font-family: 'Varela Round', sans-serif !important;
+    letter-spacing: 1.5px;
+    margin-top: -15px;    
+    text-align: center;
+    font-size: 20px;
+    color: #ffe32a !important;
+    font-weight: 900;
+    
+}
+
+/* End of Ticker Symbol */
+
+/* ticker name  */
+#ticker_name{
+
+    font-family: 'Varela Round', sans-serif !important;
+    letter-spacing: 1.5px;
+    margin-top: -5px;   
+    text-align: center;
+    font-size: 14px;
+    color: #FDFBF9 !important;
+    font-weight: 400;
+    
+}
+
+#ticker_price{
+    font-family: 'Varela Round', sans-serif !important;
+    letter-spacing: 1.5px;        
+    font-size: 12px;
+    color: #FDFBF9 !important;
+    font-weight: 500;
+    float: left;
+}
+
+#ticker_percent{
+    font-family: 'Varela Round', sans-serif !important;
+    letter-spacing: 2px;        
+    font-size: 12px;  
+    font-weight: 900;
+    float: right;
+}
+
+
+
+/* this is for search fallback in case error for the first time occurs  */
+
+#fallback{
+    color: transparent !important;
+    font-size: 0.1px !important;
+}
+/* End of search fallback in case error for the first time occurs  */
+
+
+/* End of Ticker name */
+
+
+/* CSS for LOSERS and GAINERS */
+
+#gainers{
+    /* color: #48A14D !important; */
+    color: #06D6A0 !important;
+}
+
+#losers{
+    /* color: #48A14D !important; */
+    color: #EF476F !important;
+}
+
+#zero{
+    /* color: #48A14D !important; */
+    color: #FDFBF9 !important;
+}
+
+/* End of CSS for LOSERS and GAINERS */
+
+
+/* ERROR hanling image */
+
+#error_img{
+    background-color: #232D3B !important;  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+  
+}
+
+.responsive-img{ 
+    background-color: #232D3B !important;
+  
+}
+
+#error_msg{
+    font-family: 'Varela Round', sans-serif !important;
+    letter-spacing: 1.5px;        
+    font-size: 14px;
+    color: #FDFBF9 !important;
+    font-weight: 500; 
+    text-align: center;
+    white-space: nowrap;
+}
+
+#error_code{
+    font-family: 'Varela Round', sans-serif !important;
+    letter-spacing: 1.5px;        
+    font-size: 12px;
+    color: #EF476F !important;
+    font-weight: 700; 
+    float: left;
+    /* white-space: nowrap; */
+}
+
+/* END ERROR hanling image */
+
+
+/* TOAST */
+
+/* used RGBA because of opacity  */       
+.toast{
+    background-color: rgba(41, 57, 72, 0.5)!important;      
+}
+
+
+#toast_message{
+    font-family: 'Varela Round', sans-serif !important;
+    letter-spacing: 1.5px;        
+    font-size: 12px;
+    color: #FDFBF9 !important;
+}
+
+#toast_message_update{
+    font-family: 'Varela Round', sans-serif !important;
+    letter-spacing: 1.5px;        
+    font-size: 14px;
+    color: #FDFBF9 !important; 
+}
+
+/* END of TOAST */
+
+/* FOR SEARCH LATER  */
+/* Icon for Search  and search field*/
+
+#source{
+    /* text-transform: capitalize; */
+    font-weight: 500;
+    color: #FDFBF9 !important; 
+    font-family: 'Varela Round', sans-serif !important;
+    letter-spacing: 2px !important;        
+    font-size: 12px;
+    
+}
+
+
+
+#search{
+    margin-left: 15px !important;   
+    text-transform: uppercase;
+    color: #FDFBF9 !important; 
+    font-family: 'Varela Round', sans-serif !important;
+    letter-spacing: 1.5px;        
+    font-size: 14px;
+   
+ 
+}
+
+/* 
+Datalist CSS to remove ARRROW */
+
+
+/* specifically hide the arrow on focus */
+input::-webkit-calendar-picker-indicator {
+	color: transparent !important;
+   
+}
+
+
+
+ #search_icon{
+
+    color: #FDFBF9 !important; 
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 75vw;
+    /* padding-left: 15px; */
+    /* margin-left: 250px; */
+    
+}
+
+#close_clear{
+    margin-left: 85%;
+    color: #FDFBF9 !important; 
+    /* display: none; */
+   
+}
+
+
+
+
+
+
+/* this is for the x button when search is click  */
+.input-field input[type=search]:focus:not(.browser-default)+label i, .input-field input[type=search]:focus:not(.browser-default) ~ .mdi-navigation-close, .input-field input[type=search]:focus:not(.browser-default) ~ .material-icons{
+    color: #FDFBF9 !important;
+}
+
+
+
+/* CSS for search / click  */
+
+
+
+input:focus {
+    background-color: #26547C !important;
+    font-family: 'Varela Round', sans-serif !important;
+    letter-spacing: 1.5px;        
+    font-size: 14px;
+    color: #FDFBF9 !important; 
+    
+  } */
+
+   input:not(:focus){
+    font-family: 'Varela Round', sans-serif !important;
+    letter-spacing: 1.5px;        
+    font-size: 14px;
+    color: #FDFBF9 !important; 
+  }
+
+
+/* End of Icon Search  */
+
+/* label focus color */
+
+
+/* SEARCH CSS  */
+
+#card_container{
+    display: none;
+}
+
+#search_date_as_of{
+   
+    font-family: 'Varela Round', sans-serif !important;
+    letter-spacing: 1.5px;        
+    font-size: 12px;
+    color: #FDFBF9 !important;         
+    margin-left: 8px;     
+    font-weight: 500; 
+    
+
+}
+
+#ticker_symbol{
+    font-family: 'Varela Round', sans-serif !important;
+    letter-spacing: 2.5px;
+    margin-top: 8px;    
+    text-align: center;
+    font-size: 30px;
+    color: #ffe32a !important;
+    font-weight: 900;
+    
+}
+
+#ticker_name{
+    font-family: 'Varela Round', sans-serif !important;
+    letter-spacing: 2px;    
+    text-align: center;
+    font-size: 14px;
+    color: #FDFBF9 !important;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+/* #search_price_card, #company_info{
+    border-radius: 2px !important;
+} */
+
+#table_container{
+    margin-top: -25px !important;
+}
+
+#search_change, #search_amount, #search_volume{
+    font-weight: 900 !important;
+}
+
+
+/* // will target TH since it is sharing with TD attribute */
+th{
+    font-weight: 900 !important;
+    letter-spacing: 2px !important;
+}
+
+#theader_price, #search_amount {
+    font-family: 'Varela Round', sans-serif !important;  
+    letter-spacing: 1.5px !important; 
+    font-size: 12px;
+    color: #FDFBF9 !important;
+    /* font-weight: 400; */
+    text-transform: uppercase;
+    text-align: left !important;
+}
+
+
+/* to center percentage value */
+#search_change, #theader_change{
+    font-family: 'Varela Round', sans-serif !important;  
+    letter-spacing: 1.5px !important; 
+    font-size: 12px;
+    color: #FDFBF9 !important;
+    /* font-weight: 400; */
+    text-transform: uppercase;
+    text-align: center !important;
+}
+
+#theader_volume, #search_volume{
+    font-family: 'Varela Round', sans-serif !important;  
+    letter-spacing: 1.5px !important; 
+    font-size: 12px;
+    color: #FDFBF9 !important;
+    /* font-weight: 400; */
+    text-transform: uppercase;
+    text-align: right !important;
+} 
+
+
+/* for company info card  */
+
+#company_info, #company_contact{
+    /* margin-left: 3px !important; */
+    border-radius: 2px !important;  
+    background-color: #293948 !important; 
+}
+
+
+/* for label  */
+#lbl_comp_info, #lbl_comp_contact{
+    font-family: 'Varela Round', sans-serif !important;
+    letter-spacing: 2px !important; 
+    color: white !important;
+    font-weight: 500; 
+    font-size: 9px !important;  
+    text-transform: uppercase;
+   
+    
+}
+
+#parse_company_info{
+    margin-top: 8px !important;
+    letter-spacing: 1.5px !important;
+    font-family: 'Varela Round', sans-serif !important;
+    text-indent: 30px !important;
+    color: white !important;
+    font-weight: 500; 
+    font-size: 14px !important;      
+    font-weight: 500;
+    text-align: justify !important;
+    text-justify: inter-word !important;
+    
+}
+
+#comp_address_1{
+    margin-top: 8px !important;
+    letter-spacing: 1.5px !important;
+    font-family: 'Varela Round', sans-serif !important;    
+    color: white !important;
+    font-weight: 500; 
+    font-size: 12px !important;      
+    font-weight: 500;
+    text-align: left;
+    
+}
+
+#comp_address_2, #comp_address_3, #comp_address_4, #comp_tel{   
+    font-family: 'Varela Round', sans-serif !important;    
+    color: white !important;
+    letter-spacing: 1.5px !important;
+    font-weight: 500; 
+    font-size: 12px !important;      
+    font-weight: 500;
+    text-align: left;    
+    
+  
+}
+
+#comp_tel{
+
+    color: #ffe32a !important;
+    font-family: 'Varela Round', sans-serif !important; 
+    letter-spacing: 1.5px !important;
+    font-weight: 500; 
+    font-size: 14px !important;      
+    font-weight: 500;
+    text-align: left;
+   
+}
+
+
+#notfound{
+
+    font-family: 'Varela Round', sans-serif !important;    
+    color: white !important;
+    letter-spacing: 2px !important;
+    font-weight: 900; 
+    font-size: 14px !important;      
+    font-weight: 500;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+/* for Galaxy fold  */
+
+
+@media(max-width: 320px){ 
+   
+    
+    .brand-logo{
+        font-family: 'Varela Round', sans-serif !important;
+        margin-top: 20px;
+        letter-spacing: 2px;
+        color: white !important;
+        /* color: #FFDE00 !important; */
+        font-weight: 400;  
+        font-size: 20px !important;         
+    }
+
+    #search_icon {
+        color: #FDFBF9 !important;
+        margin-top: 20px;
+        font-size: 25px !important;     
+        margin-left: 75vw;        
+    }
+
+    #close_clear_icon{
+        font-size: 20px !important; 
+    }
+
+    #theader_price, #theader_volume, #search_amount, #search_volume{
+        font-family: 'Varela Round', sans-serif !important;  
+        letter-spacing: 1.5px !important; 
+        font-size: 10px;
+        color: #FDFBF9 !important;
+        font-weight: 900;
+        text-transform: uppercase;
+        text-align: left !important;
+    }
+    
+    
+    /* to center percentage value */
+    #search_change{
+        font-family: 'Varela Round', sans-serif !important;  
+        letter-spacing: 1.5px !important; 
+        font-size: 10px;
+        color: #FDFBF9 !important;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center !important;
+    }
+    
+  
+    
+#notfound{
+
+    font-family: 'Varela Round', sans-serif !important;    
+    color: white !important;
+    letter-spacing: 2px !important;
+    font-weight: 900; 
+    font-size: 10px !important;      
+    font-weight: 500;
+    text-transform: uppercase;    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+  } 
+  /* end of media query  */
+
+
+
+  /* for landscape orientation rule  */
+
+  @media (orientation: landscape) {
+    #loading_message{
+        margin-top: 14px !important;
+    }
+
+    /* for popup and update */
+    #modal1{
+        /* background-color: #293948 !important;  */
+        margin-top: 10px !important;
+    }
+
+
+
+  } 
+
+  /* End of landscape orientation rule  */

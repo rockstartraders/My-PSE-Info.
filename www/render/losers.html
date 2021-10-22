@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"> -->
+    <meta name="google" content="notranslate" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta
+      name="viewport"
+      content="initial-scale=1, width=device-width, viewport-fit=cover"
+    />
+    <meta name="color-scheme" content="light dark" />
+    <!-- <link rel="stylesheet" href="css/cordova/index.css"> -->
+    <link rel="stylesheet" href="../css/materialize_css/materialize.min.css" />
+    <link rel="stylesheet" href="../css/override/icon.css" />
+    <link rel="stylesheet" href="../css/override/Varela_Round.css" />
+    <link rel="stylesheet" href="../css/override/override.css" />
+
+    <title>My PSE Info.</title>
+  </head>
+  <body>
+    <!--Content here-->
+
+    <!--Nav Bar -->
+
+    <nav class="z-depth-1 navbar-fixed">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo center">LOSERS</a>
+        <div class="sub-heading">
+          <p id="sub_heading_date"></p>
+          <!--Date here -->
+        </div>
+      </div>
+    </nav>
+    <!-- <br><br><br><br>  Spacer  -->
+
+    <!--End of NAV -->
+
+    <!--Card content-->
+    <div id="card_for_all_pse"></div>
+    <!-- end of Card Content-->
+
+    <!--card for error -->
+
+    <div id="error_catcher"></div>
+    <!--end of error card -->
+
+    <!--Preloader-->
+
+    <div id="loading">
+      <div class="preloader-wrapper small active">
+        <div class="spinner-layer spinner-white-only">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div>
+          <div class="gap-patch">
+            <div class="circle"></div>
+          </div>
+          <div class="circle-clipper right">
+            <div class="circle"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="loader_text">
+      <p id="loading_message">Loading</p>
+    </div>
+
+    <!--End of Preloader -->
+
+    <!--FAB -->
+    <div class="fixed-action-btn toolbar">
+      <a class="btn-floating btn-large red">
+        <i class="large material-icons" id="main_fab">addchart</i>
+      </a>
+      <ul>
+        <li>
+          <a href="../index.html"><i class="material-icons">assignment</i></a>
+        </li>
+        <li>
+          <a href="./gainers.html"><i class="material-icons">trending_up</i></a>
+        </li>
+        <li>
+          <a href="#"
+            ><i class="material-icons" id="active_href">trending_down</i></a
+          >
+        </li>
+        <li>
+          <a href="./bluechips.html"
+            ><i class="material-icons">candlestick_chart</i></a
+          >
+        </li>
+        <li>
+          <a href="./all.html"><i class="material-icons">bar_chart</i></a>
+        </li>
+        <li>
+          <a href="./pse_find.html"
+            ><i class="material-icons">manage_search</i></a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <!--END OF FAB-->
+
+    <!--Dependency-->
+
+    <script src="cordova.js"></script>
+    <script src="../js/dependency/index.js"></script>
+    <script src="../js/dependency/materialize.min.js"></script>
+    <script src="../js/dependency/moment.min.js"></script>
+
+    <!--Function-->
+
+    <script src="../js/function/gbl_variable.js"></script>
+    <script src="../js/function/losers.js"></script>
+  </body>
+</html>

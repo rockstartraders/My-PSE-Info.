@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+   
+    
+        <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"> -->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">        
+        <!-- <link rel="stylesheet" href="css/cordova/index.css"> -->
+        <link rel="stylesheet" href="../css/materialize_css/materialize.min.css">     
+        <link rel="stylesheet" href="../css/override/icon.css">        
+        <link rel="stylesheet" href="../css/override/Varela_Round.css">        
+        <link rel="stylesheet" href="../css/override/override.css">
+      
+
+        <title>My PSE Info.</title>
+    </head>
+    <body>       
+       
+
+        <!--Content here-->
+
+    
+        <!--Nav Bar -->
+
+        
+  <nav class="z-depth-1 navbar-fixed">
+    <div class="nav-wrapper " id ="nav_wrapper">
+      <a href="#" class="brand-logo center" id="Find_text">PSE FIND</a>      
+
+        <form>
+          <div class="input-field">
+         
+             
+            <input class="s12 m12 l12" id="search" type="search" maxlength="15" list="psecode"  autocomplete="off" onkeypress="handle(event)" required>            
+            <label class="label-icon" for="search"><i class="material-icons" id="search_icon">search</i></label>
+            <!-- <label class="label-icon" for="close" id="close_clear"></label> --><i class="material-icons" id="close_clear_icon">close</i>           
+           </div>
+        
+           <datalist id="psecode" >
+            <!-- <template id="resultstemplate"> -->
+            <option value="2GO">2GO</option>
+            <option value="8990B">8990B</option>
+            <option value="8990P">8990P</option>
+            <option value="AB">AB</option>
+            <option value="ABA">ABA</option>
+            <option value="ABG">ABG</option>
+            <option value="ABS">ABS</option>
+            <option value="ABSP">ABSP</option>
+            <option value="AC">AC</option>
+            <option value="ACE">ACE</option>
+            <option value="ACEN">ACEN</option>
+            <option value="ACEX">ACEX</option>
+            <option value="ACPB1">ACPB1</option>
+            <option value="ACR">ACR</option>
+            <option value="AEV">AEV</option>
+            <option value="AGI">AGI</option>
+            <option value="ALCO">ALCO</option>
+            <option value="ALI">ALI</option>
+            <option value="ALLHC">ALLHC</option>
+            <option value="ANI">ANI</option>
+            <option value="ANS">ANS</option>
+            <option value="AP">AP</option>
+            <option value="APC">APC</option>
+            <option value="APL">APL</option>
+            <option value="APO">APO</option>
+            <option value="APVI">APVI</option>
+            <option value="APX">APX</option>
+            <option value="ARA">ARA</option>
+            <option value="AREIT">AREIT</option>
+            <option value="AT">AT</option>
+            <option value="ATI">ATI</option>
+            <option value="ATN">ATN</option>
+            <option value="AXLM">AXLM</option>
+            <option value="BC">BC</option>
+            <option value="BCB">BCB</option>
+            <option value="BCOR">BCOR</option>
+            <option value="BDO">BDO</option>
+            <option value="BEL">BEL</option>
+            <option value="BHI">BHI</option>
+            <option value="BLOOM">BLOOM</option>
+            <option value="BPI">BPI</option>
+            <option value="BRN">BRN</option>
+            <option value="BSC">BSC</option>
+            <option value="C">C</option>
+            <option value="CAT">CAT</option>
+            <option value="CDC">CDC</option>
+            <option value="CEB">CEB</option>
+            <option value="CEBCP">CEBCP</option>
+            <option value="CEI">CEI</option>
+            <option value="CHIB">CHIB</option>
+            <option value="CHP">CHP</option>
+            <option value="CIC">CIC</option>
+            <option value="CLI">CLI</option>
+            <option value="CNPF">CNPF</option>
+            <option value="CNVRG">CNVRG</option>
+            <option value="COAL">COAL</option>
+            <option value="COL">COL</option>
+            <option value="COSCO">COSCO</option>
+            <option value="CPG">CPG</option>
+            <option value="CPGP">CPGP</option>
+            <option value="CPM">CPM</option>
+            <option value="CROWN">CROWN</option>
+            <option value="DD">DD</option>
+            <option value="DDMPR">DDMPR</option>
+            <option value="DDPR">DDPR</option>
+            <option value="DELM">DELM</option>
+            <option value="DFNN">DFNN</option>
+            <option value="DITO">DITO</option>
+            <option value="DMC">DMC</option>
+            <option value="DMPA2">DMPA2</option>
+            <option value="DMW">DMW</option>
+            <option value="DNL">DNL</option>
+            <option value="DWC">DWC</option>
+            <option value="EAGLE">EAGLE</option>
+            <option value="ECP">ECP</option>
+            <option value="EEI">EEI</option>
+            <option value="ELI">ELI</option>
+            <option value="EMP">EMP</option>
+            <option value="EURO">EURO</option>
+            <option value="EVER">EVER</option>
+            <option value="EW">EW</option>
+            <option value="FB">FB</option>
+            <option value="FDC">FDC</option>
+            <option value="FERRO">FERRO</option>
+            <option value="FGEN">FGEN</option>
+            <option value="FILRT">FILRT</option>
+            <option value="FLI">FLI</option>
+            <option value="FMETF">FMETF</option>
+            <option value="FNI">FNI</option>
+            <option value="FOOD">FOOD</option>
+            <option value="FPH">FPH</option>
+            <option value="FRUIT">FRUIT</option>
+            <option value="GEO">GEO</option>
+            <option value="GERI">GERI</option>
+            <option value="GLO">GLO</option>
+            <option value="GMA7">GMA7</option>
+            <option value="GMAP">GMAP</option>
+            <option value="GREEN">GREEN</option>
+            <option value="GSMI">GSMI</option>
+            <option value="GTCAP">GTCAP</option>
+            <option value="GTPPA">GTPPA</option>
+            <option value="GTPPB">GTPPB</option>
+            <option value="HI">HI</option>
+            <option value="HLCM">HLCM</option>
+            <option value="HOME">HOME</option>
+            <option value="HOUSE">HOUSE</option>            
+            <option value="I">I</option>
+            <option value="ICT">ICT</option>
+            <option value="IDC">IDC</option>
+            <option value="IMI">IMI</option>
+            <option value="IMP">IMP</option>
+            <option value="ION">ION</option>
+            <option value="IPM">IPM</option>
+            <option value="IPO">IPO</option>
+            <option value="IRC">IRC</option>
+            <option value="JFC">JFC</option>
+            <option value="JGS">JGS</option>
+            <option value="KEP">KEP</option>
+            <option value="KPH">KPH</option>
+            <option value="KPPI">KPPI</option>
+            <option value="LAND">LAND</option>
+            <option value="LBC">LBC</option>
+            <option value="LC">LC</option>
+            <option value="LCB">LCB</option>
+            <option value="LFM">LFM</option>
+            <option value="LMG">LMG</option>
+            <option value="LODE">LODE</option>
+            <option value="LPZ">LPZ</option>
+            <option value="LR">LR</option>
+            <option value="LRW">LRW</option>
+            <option value="LTG">LTG</option>
+            <option value="MA">MA</option>
+            <option value="MAB">MAB</option>
+            <option value="MAC">MAC</option>
+            <option value="MAH">MAH</option>
+            <option value="MAHB">MAHB</option>
+            <option value="MARC">MARC</option>
+            <option value="MAXS">MAXS</option>
+            <option value="MB">MB</option>
+            <option value="MBC">MBC</option>
+            <option value="MBT">MBT</option>
+            <option value="MEG">MEG</option>
+            <option value="MER">MER</option>
+            <option value="MG">MG</option>
+            <option value="MJC">MJC</option>
+            <option value="MM">MM</option>
+            <option value="MONDE">MONDE</option>
+            <option value="MPI">MPI</option>
+            <option value="MRC">MRC</option>
+            <option value="MRSGI">MRSGI</option>
+            <option value="MVC">MVC</option>
+            <option value="MWC">MWC</option>
+            <option value="MWIDE">MWIDE</option>
+            <option value="MWP">MWP</option>
+            <option value="MWP2B">MWP2B</option>
+            <option value="NI">NI</option>
+            <option value="NIKL">NIKL</option>
+            <option value="NOW">NOW</option>
+            <option value="NRCP">NRCP</option>
+            <option value="OPM">OPM</option>
+            <option value="OPMB">OPMB</option>
+            <option value="ORE">ORE</option>
+            <option value="OV">OV</option>
+            <option value="PA">PA</option>
+            <option value="PAX">PAX</option>
+            <option value="PBB">PBB</option>
+            <option value="PCOR">PCOR</option>
+            <option value="PERC">PERC</option>
+            <option value="PGOLD">PGOLD</option>
+            <option value="PHA">PHA</option>
+            <option value="PHES">PHES</option>
+            <option value="PHN">PHN</option>
+            <option value="PHR">PHR</option>
+            <option value="PIZZA">PIZZA</option>
+            <option value="PLC">PLC</option>
+            <option value="PMPC">PMPC</option>
+            <option value="PNB">PNB</option>
+            <option value="PNX">PNX</option>
+            <option value="PNX3B">PNX3B</option>
+            <option value="PNX4">PNX4</option>
+            <option value="PPC">PPC</option>
+            <option value="PRF2B">PRF2B</option>
+            <option value="PRF3A">PRF3A</option>
+            <option value="PRF3B">PRF3B</option>
+            <option value="PRIM">PRIM</option>
+            <option value="PRMX">PRMX</option>
+            <option value="PSB">PSB</option>           
+            <option value="PX">PX</option>
+            <option value="PXP">PXP</option>
+            <option value="RCB">RCB</option>
+            <option value="RCI">RCI</option>
+            <option value="RFM">RFM</option>
+            <option value="RLC">RLC</option>
+            <option value="RLT">RLT</option>
+            <option value="ROCK">ROCK</option>
+            <option value="ROX">ROX</option>
+            <option value="RRHI">RRHI</option>
+            <option value="SBS">SBS</option>
+            <option value="SCC">SCC</option>
+            <option value="SECB">SECB</option>
+            <option value="SEVN">SEVN</option>
+            <option value="SFI">SFI</option>
+            <option value="SFIP">SFIP</option>
+            <option value="SGI">SGI</option>
+            <option value="SHLPH">SHLPH</option>
+            <option value="SHNG">SHNG</option>
+            <option value="SLI">SLI</option>
+            <option value="SM">SM</option>
+            <option value="SMC">SMC</option>
+            <option value="SMC2C">SMC2C</option>
+            <option value="SMC2E">SMC2E</option>
+            <option value="SMC2F">SMC2F</option>
+            <option value="SMC2H">SMC2H</option>
+            <option value="SMC2I">SMC2I</option>
+            <option value="SMC2J">SMC2J</option>
+            <option value="SMC2K">SMC2K</option>
+            <option value="SMPH">SMPH</option>
+            <option value="SPC">SPC</option>
+            <option value="SPM">SPM</option>
+            <option value="SSI">SSI</option>
+            <option value="SSP">SSP</option>
+            <option value="STI">STI</option>
+            <option value="STR">STR</option>
+            <option value="SUN">SUN</option>
+            <option value="T">T</option>
+            <option value="TBGI">TBGI</option>
+            <option value="TECH">TECH</option>
+            <option value="TECHW">TECHW</option>
+            <option value="TEL">TEL</option>
+            <option value="TFHI">TFHI</option>
+            <option value="TUGS">TUGS</option>
+            <option value="UBP">UBP</option>
+            <option value="UPM">UPM</option>
+            <option value="URC">URC</option>
+            <option value="VITA">VITA</option>
+            <option value="VLL">VLL</option>
+            <option value="VUL">VUL</option>
+            <option value="VMC">VMC</option>
+            <option value="VVT">VVT</option>
+            <option value="WEB">WEB</option>
+            <option value="WIN">WIN</option>
+            <option value="WLCON">WLCON</option>
+            <option value="WPI">WPI</option>
+            <option value="ZHI">ZHI</option>
+          <!-- </template> -->
+        </datalist>           
+        </form>
+      </div>
+    </div> 
+    </nav>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>  
+
+
+
+  <!--End of NAV -->
+
+
+  <!-- body where info will be displayed -->
+
+
+  <!-- main div to render info  -->
+  <div id="card_container">
+
+  <!--  Date, Company , Price and volume  -->
+<div id="pse_search_container">   
+    <p id="search_date_as_of"></p> 
+    <br>   
+    <p id="ticker_symbol"></p>   
+    <p id="ticker_name"></p>
+
+    <!-- card for price and volume info -->
+    
+    <div class="row">
+        <div class="col s12 m12 l12">      
+          <div class="card blue-grey darken-1 z-depth-0" id="search_price_card">      
+            <div class="card-content white-text">
+
+<!--           
+              <p id="search_amount">Current Price per Share PHP 100</p>
+              <p id="search_percent">CHange in Percent 10%</p>
+              <p id="search_volume">Volume 1000</p> -->
+
+              <table class="centered" id="table_container">
+                <thead>
+                  <tr>
+                      <th id="theader_price">Price</th>
+                      <th id="theader_change">% Change</th>
+                      <th id="theader_volume">Volume</th>
+                  </tr>
+                </thead>
+        
+                <tbody>
+                  <tr>
+                    <td id="search_amount"></td>
+                    <td id="search_change"></td>
+                    <td id="search_volume"></td>
+                  </tr>                
+                </tbody>
+              </table>
+   
+
+              <!-- COntent Here-->                 
+            </div>           
+          </div>
+        </div>
+      </div>
+      <!-- end of card for price and volume info -->           
+</div>
+
+<!-- this is for company info  -->
+<div class="row">
+  <div class="col s12 m12 l12">      
+    <div class="card blue-grey darken-1 z-depth-0" id="company_info">      
+      <div class="card-content white-text">
+
+
+        <label for="parse_company_info" id="lbl_comp_info">Company Info.</label>       
+        <p id="parse_company_info"></p>       
+
+        <!-- COntent Here-->                 
+      </div>           
+    </div>
+  </div>
+</div>
+<!-- end of company info -->       
+
+
+<!-- this is for the company contact details  -->
+
+<div class="row">
+  <div class="col s12 m12 l12">      
+    <div class="card blue-grey darken-1 z-depth-0" id="company_contact">      
+      <div class="card-content white-text">
+
+
+        <label for="parse_company_contact" id="lbl_comp_contact">Company Contact Info.</label>       
+        <p id="parse_company_contact"></p>       
+        <p id="comp_address_1"></p>  
+        <p id="comp_address_2"></p>  
+        <p id="comp_address_3"></p>  
+        <p id="comp_address_4"></p>          
+        <p id="comp_tel"></p>     
+      </div>           
+    </div>
+  </div>
+</div>
+<!-- end of company contact details -->       
+<br>
+
+<!-- this is for source info -->
+<blockquote>  
+  <p id="source"></p> 
+</blockquote>
+<br>
+<br>
+</div> 
+
+<!-- end of main div and will be hidden later  -->
+
+
+
+  <!--card for error -->
+
+  <div id="error_catcher"></div>
+  <!--end of error card -->
+
+
+  <!-- not found container  -->
+
+  <div id="notfound">
+    <P id="code_not_found"></P>
+  </div>
+  
+
+   <!--Preloader-->
+
+   <div id="loading">  
+    <div class="preloader-wrapper small active">
+      <div class="spinner-layer spinner-white-only">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div><div class="gap-patch">
+          <div class="circle"></div>
+        </div><div class="circle-clipper right">
+          <div class="circle"></div>     
+        </div>
+      </div>   
+    </div>
+  </div>
+  <div id="loader_text">
+    <p id="loading_message">Loading</p>
+  </div>
+  
+  
+    <!--End of Preloader -->
+
+    <p id="fallback"></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <button id="get_code"></button> -->
+
+  <!--FAB -->  
+<div class="fixed-action-btn toolbar">
+    <a class="btn-floating btn-large red">
+      <i class="large material-icons" id="main_fab">addchart</i>
+    </a>
+    <ul>
+      <li><a href="../index.html"><i class="material-icons">assignment</i></a></li>
+      <li><a href="../render/gainers.html"><i class="material-icons" >trending_up</i></a></li>
+      <li><a href="../render/losers.html"><i class="material-icons" >trending_down</i></a></li>    
+      <li><a href="../render/bluechips.html"><i class="material-icons">candlestick_chart</i></a></li>  
+      <li><a href="../render/all.html"><i class="material-icons">bar_chart</i></a></li>   
+      <li><a href="#"><i class="material-icons" id="active_href">manage_search</i></a></li>
+    </ul>
+  </div>
+
+  <!--END OF FAB-->
+
+
+
+ 
+
+
+         <!--Dependency-->
+
+        <script src="cordova.js"></script>
+        <script src="../js/dependency/index.js"></script>
+        <script src="../js/dependency/materialize.min.js"></script>
+        <script src="../js/dependency/moment.min.js"></script>
+       
+
+
+       
+         <!--Function-->
+
+         <script src="../js/function/gbl_variable.js"></script>
+         <script src="../js/function/search.js"></script>
+    </body>
+</html>
