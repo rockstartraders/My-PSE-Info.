@@ -6,9 +6,11 @@ My PSE Info.
 
 A simple Android App. to view PSE data with the help of [Phisix API](https://phisix-api4.appspot.com/)
 <br>
-This is just a personal project of mine just to view data needed from PSE aka [Philippine Stock Exchange](https://en.wikipedia.org/wiki/Philippine_Stock_Exchange).
-
-
+This is just a personal project of mine with a sole purpose of viewing data from PSE aka [Philippine Stock Exchange](https://en.wikipedia.org/wiki/Philippine_Stock_Exchange)
+<br>
+<br>
+For data accuracy please always check the [PSE Website](https://www.pse.com.ph/). 
+<br>
 
 ## Snapshot
 <br>
