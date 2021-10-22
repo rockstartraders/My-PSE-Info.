@@ -10,14 +10,12 @@ A simple Android App. to view PSE data with the help of [Phisix API](https://phi
 
 
 ## Snapshot
-
-I know that the Image Quality sucks after converting it as a GIF but the app itself doesn't look like that I promise (the pixel I mean). 
-<br> 
 <br>
 <img src="Installer and MD IMG/PSE_info.gif" width="40%" height="90%">
 
 
-
+<br>
+<br>
 ## Install
 Installer is located at [Installer and MD IMG](https://github.com/rockstartraders/My-PSE-Info./tree/master/Installer%20and%20MD%20IMG) 
 <br>
@@ -33,10 +31,11 @@ Installer is located at [Installer and MD IMG](https://github.com/rockstartrader
 <br>
 [Phisix API](https://phisix-api4.appspot.com/) 
 <br>
-[MarketWatch](https://www.marketwatch.com/) 
+[MarketWatch for relevant data.](https://www.marketwatch.com/) 
 <br>
-[PSE Website](https://www.pse.com.ph/) 
-
+[PSE Website for reference](https://www.pse.com.ph/) 
+<br>
+[Tradingview for charting](https://www.tradingview.com/) 
 <br>
 <br>
 
